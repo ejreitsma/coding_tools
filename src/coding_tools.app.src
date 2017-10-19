@@ -1,0 +1,17 @@
+{application, coding_tools,
+ [
+  {description, "An Erlang parse transform library"},
+  {vsn, "1"},
+  {modules, [
+	     codec_transform,
+	     decoder_tools,
+	     record_fields,
+	     record_fields_transform
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
